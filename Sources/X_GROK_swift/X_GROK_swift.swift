@@ -1,6 +1,6 @@
 import Foundation
 
-// xAI Grog LLM client library
+// xAI Grok LLM client library
 
 struct X_GROK {
     private static let key = ProcessInfo.processInfo.environment["X_GROK_API_KEY"]!
@@ -58,7 +58,6 @@ struct X_GROK {
         }
         return content
     }
-
 }
 
 // Usage functions:
